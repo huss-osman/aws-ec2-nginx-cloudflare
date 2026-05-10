@@ -52,10 +52,6 @@ NGINX Web Server
 Website Response
 ```
 
-<p align="center">
-  <img width="1000" alt="Architecture Diagram" src="images/Architecture_Diagram.png" />
-</p>
-
 ---
 
 # Registering the Domain
