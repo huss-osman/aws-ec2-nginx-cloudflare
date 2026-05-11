@@ -36,21 +36,7 @@ The goal of this project was to:
 
 # Architecture Diagram
 
-```text
-Browser
-   │
-   ▼
-Cloudflare DNS
-   │
-   ▼
-EC2 Public IPv4
-   │
-   ▼
-NGINX Web Server
-   │
-   ▼
-Website Response
-```
+<img width="1000" alt="Architecture Diagram" src="https://github.com/huss-osman/aws-ec2-nginx-cloudflare/blob/main/images/Architecture%20Diagram.png" />
 
 ---
 
