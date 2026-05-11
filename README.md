@@ -36,7 +36,9 @@ The goal of this project was to:
 
 # Architecture Diagram
 
-<img width="1000" alt="Architecture Diagram" src="https://github.com/huss-osman/aws-ec2-nginx-cloudflare/blob/main/images/Architecture%20Diagram.png" />
+<p align="center">
+<img width="750" alt="Architecture Diagram" src="https://github.com/huss-osman/aws-ec2-nginx-cloudflare/blob/main/images/Architecture%20Diagram.png" />
+</p>
 
 ---
 
