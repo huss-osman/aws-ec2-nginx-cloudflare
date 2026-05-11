@@ -40,6 +40,18 @@ The goal of this project was to:
 <img width="1000" alt="Architecture Diagram" src="https://github.com/huss-osman/aws-ec2-nginx-cloudflare/blob/main/images/Architecture%20Diagram.png" />
 </p>
 
+> [!NOTE]
+> The EC2 instance was deployed inside a **public subnet** with a public IPv4 address enabled.
+>
+> Cloudflare DNS was used to route traffic from `nginx.osmanhus.co.uk` to the EC2 instance hosting the NGINX web server.
+
+> [!IMPORTANT]
+> Security Groups acted as the primary firewall layer for the instance:
+>
+> - `SSH (22)` restricted to **My IP only**
+> - `HTTP (80)` allowed publicly
+> - `HTTPS (443)` allowed publicly
+
 ---
 
 # Registering the Domain
