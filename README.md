@@ -12,7 +12,7 @@
 
 ## Overview
 
-This assignment brings together core networking concepts including IP addressing, DNS resolution, ports, and routing.
+This project brings together core networking concepts including IP addressing, DNS resolution, ports, and routing.
 
 The objective is to deploy a web server on an EC2 instance and expose it to the internet using a custom domain name.
 
