@@ -10,15 +10,9 @@
 <img width="1000" alt=" Domain" src="https://github.com/huss-osman/aws-ec2-nginx-cloudflare/blob/main/images/aws-ec2-nginx-cloudflare-diagram.png" />
 </p>
 
----
+This project is a production-style web server deployment built from scratch using AWS and Cloudflare. It runs inside an AWS VPC with an Internet Gateway, a public subnet, and an Ubuntu EC2 instance hosting an NGINX web server exposed securely to the internet through Cloudflare DNS and proxy services.
 
-## Overview
-
-This assignment brings together core networking concepts including IP addressing, DNS resolution, ports, and routing.
-
-The objective is to deploy a web server on an EC2 instance and expose it to the internet using a custom domain name.
-
-By completing this project, the setup simulates how real-world services are hosted across cloud infrastructure.
+The goal was to understand how real-world web applications are delivered end-to-end, covering networking concepts such as DNS resolution, public IP addressing, routing, ports, security groups, and web server management in a cloud environment.
 
 ---
 
