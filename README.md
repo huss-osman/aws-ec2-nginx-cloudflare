@@ -7,7 +7,7 @@
 ![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white)
 
 <p align="center">
-  <img width="1000" alt="Architecture Diagram" src="images/Website_NGINX_Image.png" />
+<img width="1000" alt=" Domain" src="https://github.com/huss-osman/aws-ec2-nginx-cloudflare/blob/main/images/aws-ec2-nginx-cloudflare-diagram.png" />
 </p>
 
 ---
@@ -33,26 +33,6 @@ The goal of this project was to:
 - Route traffic from a custom domain to an EC2 instance
 - Build foundational cloud and networking knowledge
 - Practice real-world troubleshooting and deployment workflows
-
----
-
-# Architecture 
-
-<p align="center">
-<img width="1000" alt="Architecture Diagram" src="https://github.com/huss-osman/aws-ec2-nginx-cloudflare/blob/main/images/Architecture_Diagram.png" />
-</p>
-
-> [!NOTE]
-> The EC2 instance was deployed inside a **public subnet** with a public IPv4 address enabled.
->
-> Cloudflare DNS was used to route traffic from `nginx.osmanhus.co.uk` to the EC2 instance hosting the NGINX web server.
-
-> [!IMPORTANT]
-> Security Groups acted as the primary firewall layer for the instance:
->
-> - `SSH (22)` restricted to **My IP only**
-> - `HTTP (80)` allowed publicly
-> - `HTTPS (443)` allowed publicly
 
 ---
 
